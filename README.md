@@ -91,14 +91,14 @@ The dataset is imbalanced:
 9. property_damage
 10. auto_year
 
-![Feature Importance Plot](images/feature_importance.png)
 
 ---
 
 ### Correlation Heatmap
 A heatmap revealed strong correlation among `total_claim_amount`, `injury_claim`, `vehicle_claim`, and partially with fraud.
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+<Figure size 1000x1000 with 2 Axes><img width="992" height="1050" alt="image" src="https://github.com/user-attachments/assets/1218728c-f271-4f32-980b-7ac3b1ab7e4f" />
+
 
 ---
 
@@ -106,8 +106,28 @@ A heatmap revealed strong correlation among `total_claim_amount`, `injury_claim`
 - Python 3.x
 - **Data Processing:** pandas, numpy  
 - **Visualization:** matplotlib, seaborn  
-- **ML Models:** scikit-learn, xgboost
+- **ML Models:** scikit-learn, Random Forest
 
 ---
 
-## 🚀 How to Run
+
+## 🚀 Installation & Usage
+
+Follow these steps to set up and run the project locally:
+
+### 1️⃣ Clone the Repository
+https://github.com/deshmukh-viraj/Fradulent_claim_detection_case_study.git
+
+
+---
+
+## 📌 Future Improvements
+- Balance dataset with SMOTE or class weights.
+- Deploy as a Flask/FastAPI real-time API.
+- Test deep learning models.
+- Integrate live third-party fraud detection APIs.
+
+---
+
+## 📜 License
+This project is for learning/demo purposes only.
