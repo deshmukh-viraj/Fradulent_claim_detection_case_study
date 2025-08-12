@@ -111,16 +111,6 @@ A heatmap revealed strong correlation among `total_claim_amount`, `injury_claim`
 ---
 
 
-## 🚀 Installation & Usage
-
-Follow these steps to set up and run the project locally:
-
-### 1️⃣ Clone the Repository
-https://github.com/deshmukh-viraj/Fradulent_claim_detection_case_study.git
-
-
----
-
 ## 📌 Future Improvements
 - Balance dataset with SMOTE or class weights.
 - Deploy as a Flask/FastAPI real-time API.
